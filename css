@@ -1,0 +1,215 @@
+/* ===== REINITIALISATION ET BASE ===== */
+* {
+  margin: 0;
+  padding: 2;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #050506;
+  background-color: #ffffff;
+}
+
+img{
+  border : 3px solid #000000;
+}
+ /* ===== NAVIGATION ===== */
+nav {
+  margin-top: 15px;
+}
+ 
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+ 
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+ 
+nav a:hover {
+  background-color: rgba(14, 41, 239, 0.2);
+}
+.competence: hover { 
+  transform: translateY(-4px); transition: transform 0.2s; 
+} 
+
+/* ===== HEADER ===== */
+header {
+  background-image: url("image_site/coding_backgroud.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f9f9f9;
+  padding: 30px 40px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+header h1 {
+  animation: fadeIn 1s;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+ 
+/* ===== CONTENU PRINCIPAL ===== */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+ 
+h2 {
+  color: #050506;
+  border-bottom: 2px solid #286b7b;
+  padding-bottom: 8px;
+  margin: 50px 0 15px 0;
+}
+ 
+/* ===== CARTES  ===== */
+.Moi{
+  background: #ffffff;
+  border-bottom: 2px solid #206012;
+  border-left: 50px solid #206012;
+  border-right: 2px solid #206012;
+  border-top: 2px solid #206012;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qui {
+  background: #ffffff;
+  border-bottom: 2px solid #206012;
+  border-left: 50px solid #206012;
+  border-right: 2px solid #206012;
+  border-top: 2px solid #206012;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titre_parcours {
+  position: relative;
+  right: 450px;
+}
+
+.parcours {
+  background: #ffffff;
+  border-bottom: 2px solid #206012;
+  border-left: 50px solid #206012;
+  border-right: 2px solid #206012;
+  border-top: 2px solid #206012;
+  position: relative;
+  right: 450px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.points {
+  background: #ffffff;
+  border-bottom: 2px solid #206012;
+  border-left: 50px solid #206012;
+  border-right: 2px solid #206012;
+  border-top: 2px solid #206012;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.competence {
+  background: #ffffff;
+  border-bottom: 2px solid #206012;
+  border-left: 50px solid #206012;
+  border-right: 2px solid #206012;
+  border-top: 2px solid #206012;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tableau{
+  position: relative;
+  bottom: 360px;
+  left: 450px;
+}
+
+table {
+    border-collapse: collapse;
+    background: #a5a5a2;
+    position: relative;
+    bottom: 355px;
+    left: 450px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+td {
+    border: 3px solid #206012; 
+}
+
+.projets {
+  background: #ffffff;
+  border-bottom: 2px solid #206012;
+  border-left: 50px solid #206012;
+  border-right: 2px solid #206012;
+  border-top: 2px solid #206012;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.titre_Contacts {
+  position: relative;
+  bottom: 320px;
+}
+ .Contacts {
+  background: #ffffff;
+  border-bottom: 2px solid #206012;
+  border-left: 50px solid #206012;
+  border-right: 2px solid #206012;
+  border-top: 2px solid #206012;
+  position: relative;
+  bottom: 320px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+ }
+/* ===== FOOTER ===== */
+footer {
+  background-color: #201a00;
+  color: white;
+  text-align: center;
+
+@media (max-width: 600px) {
+   nav ul { 
+    flex-direction: column; 
+  } 
+}
+@keyframes fadeIn {
+   from{
+    opacity:0
+  } 
+  to{
+    opacity:1
+  } 
+}  
